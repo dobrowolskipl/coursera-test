@@ -1,0 +1,102 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER START */
+#header-nav {
+  background-color: lightgray;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  height: 60px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: black;
+  float: left;
+  line-height: 0.75;
+  margin: 0 0 0 0;
+}
+
+/* override  */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 0.75;
+}
+
+/* SPR */
+#nav-list {
+  margin-top: 0; 
+  margin-bottom: 0;
+  border-top: 2px solid black;
+}
+/* SPR */
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: lightgray;
+}
+#nav-list a span {
+  font-size: 1.5em;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+#nav-list hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 2px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: right;
+}
+/* HEADER END */
+
+/* BODY START */
+#main-content {
+  margin: 20px;
+}
+
+#main-content h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+#main-content .sectiontitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 15px;
+  margin: 15px;
+}
+
+/* BODY END */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #main-content {
+  	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
